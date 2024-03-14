@@ -3,15 +3,25 @@
 User Stories and Separate Concerns for a To-Do List in MVC As a user, I want to...
 
 Add tasks to my list:
-Create new tasks by specifying a description and optionally setting a due date or priority level. 2. View all tasks:
 
-See a list of all my existing tasks, including their descriptions, due dates (if set), and completion status. Optionally, filter or search tasks by keyword, completion status, or date range. 3. Mark tasks as complete:
+1. Create new tasks by specifying a description and optionally setting a due date or priority level. 
 
-Mark individual tasks as completed or incomplete, visually indicating their status in the list. 4. Edit existing tasks (optional):
+2. View all tasks:
 
-Edit the description, due date, or priority level of existing tasks. 5. Delete tasks (optional):
+See a list of all my existing tasks, including their descriptions, due dates (if set), and completion status. Optionally, filter or search tasks by keyword, completion status, or date range. 
 
-Remove unwanted tasks from the list. Separate Concerns:
+
+3. Edit existing tasks:
+
+Edit the description, or due date. 
+
+4. Delete tasks:
+
+Remove unwanted or finished tasks from the list. 
+
+
+
+Separate Concerns:
 
 Model:
 Task class: Stores information about each task (description, due date, priority level, completion status, etc.). 2. Controller:
