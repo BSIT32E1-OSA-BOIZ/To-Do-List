@@ -1,4 +1,4 @@
-# ToDoList App
+# ToDoList App Example
 
 User Stories and Separate Concerns for a To-Do List in MVC As a user, I want to...
 
